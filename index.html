@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GB PORTFOLIO</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -26,6 +23,7 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about-section">About</a></li>
+                <li><a href="#skill-section">Skills</a></li>
                 <li><a href="#project-section">Projects</a></li>
                 <li><a href="#exp-section">Experience</a></li>
                 <li><a href="#cert-section">Certificates</a></li>
@@ -42,6 +40,7 @@
                         <div class="links">
                             <a href="#">Home</a>
                             <a href="#about-section">About</a>
+                            <a href="#skill-section">Skills</a>
                             <a href="#project-section">Projects</a>
                             <a href="#exp-section">Experience</a>
                             <a href="#cert-section">Certificates</a>
@@ -54,7 +53,7 @@
                         </a>
                     </div>
                     <div class="right center flex between">
-                        <a href="https://www.linkedin.com/in/g-bhadra-nair-669a59249">
+                        <a href="https://www.linkedin.com/in/g-bhadra-nair">
                         <img src="assets/social/linkedin.png" class="linkedin">
                         </a>
                     </div>
@@ -64,445 +63,620 @@
                         </a>
                     </div>
                     <div class="right center flex between">
-                        
-                        <a href="mailto:gsb22102@gmail.com">
-
+                        <a href="mailto:er.bhadranair@gmail.com">
                         <img src="assets/social/gmail.png" class="gmail">
                         </a>
                     </div>
                 </nav>
                 <div class="main flex flex1 center between">
                     <div class="left flex1">
-                        <h3 class="name">Hi, I'm G Bhadra nair</h3>
+                        <h3 class="name">Hi, I'm G Bhadra Nair</h3>
                         <h1 class="title" id="typewriter"></h1>
                         <div>
-                            <button class="cv" onclick="window.open('./assets/Resume G_BHADRA_NAIR.pdf', '_blank')"><strong>MY RESUME</strong></button>
+                            <button class="cv" onclick="window.open('./assets/G Bhadra nair.pdf', '_blank')"><strong>MY RESUME</strong></button>
                         </div>
                     </div>
                     <div class="right flex1 flex center j-center">
                         <img src="./assets/photo1.jpg">
                     </div>
+                </div>
             </div>
-            </header>
-        
-            <section class="sec" id="about-section">
-                <div class="container flex center between">
-                <div class="flex center between">
-                    <div class="left flex j-center">
-                        <span class="about-text">
-                        about
-                        </span>
-                    </div>
-                    <div class="line flex1 flex j-center">
-                    </div>
+        </header>
+
+        <!-- ===================== ABOUT ===================== -->
+        <section class="sec" id="about-section">
+            <div class="container flex center between">
+            <div class="flex center between">
+                <div class="left flex j-center">
+                    <span class="about-text">
+                    about
+                    </span>
                 </div>
+                <div class="line flex1 flex j-center">
                 </div>
-                <div class="container">
-                    <p class="about-me">
-                        I'm all about bringing ideas to life, whether it's designing user-friendly interfaces that are a joy to use, or crafting the code that makes them tick. I love the challenge of taking a spark of an idea and turning it into something tangible – an interface so intuitive it feels natural, and code that runs smoothly behind the scenes. It's like being a digital sculptor, shaping both the look and feel of an experience, and the engine that powers it all.
-                    </p>
+            </div>
+            </div>
+            <div class="container">
+                <p class="about-me">
+                    I'm a Cloud and Backend Developer who builds the systems that keep things running behind the scenes. I work across AWS, GCP and Azure, automating infrastructure with Python and Ansible, building REST APIs with FastAPI, Django and Spring, and setting up monitoring that catches problems before users do. I also build web and mobile apps, and I enjoy bringing AI into everyday workflows using LLMs and AI agents. I'm passionate about cloud infrastructure, Generative AI, MLOps and software that scales.
+                </p>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="about-text2">
+                        Cloud
+                    </span><br>
+                    <span class="about-text3">
+                        AWS , GCP , Azure , DigitalOcean
+                    </span>
                 </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
-                        <span class="about-text2">
-                            Designing
-                        </span><br>
-                        <span class="about-text3">
-                            30+ Works Completed
-                        </span>
-                    </div>
-                    <div class="about-divcenter flex1">
-                        <span class="about-text2">
-                            Web Development
-                        </span><br>
-                        <span class="about-text3">
-                            HTML , CSS , JavaScript
-                        </span>
-                    </div>
-                    <div class="about-right flex1">
-                        <span class="about-text2">
-                            Coding
-                        </span><br>
-                        <span class="about-text3">
-                            400+ hours Completed
-                        </span>
-                    </div>
+                <div class="about-divcenter flex1">
+                    <span class="about-text2">
+                        Observability
+                    </span><br>
+                    <span class="about-text3">
+                        24 Enterprise Apps moving to Datadog
+                    </span>
                 </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
-                        <span class="about-text21">
-                            Nationality
-                        </span><br>
-                        <span class="about-text3">
-                            INDIAN
-                        </span>
-                    </div>
-                    <div class="about-divcenter flex1">
-                        <span class="about-text21">
-                            Date Of Birth
-                        </span><br>
-                        <span class="about-text3">
-                            22 October 2002
-                        </span>
-                    </div>
-                    <div class="about-right flex1">
-                        <span class="about-text21">
-                            Languages
-                        </span><br>
-                        <span class="about-text3">
-                            Malayalam , English , Hindi
-                        </span>
-                    </div>
+                <div class="about-right flex1">
+                    <span class="about-text2">
+                        Development
+                    </span><br>
+                    <span class="about-text3">
+                        Backend , Web &amp; App Development
+                    </span>
                 </div>
-            </section>
-        
-            <section class="sec" id="project-section">
-                <div class="container flex center between">
-                <div class="flex center between">
-                    <div class="left flex j-center">
-                        <span class="about-text">
-                        projects
-                        </span>
-                    </div>
-                    <div class="line2 flex1 flex j-center">
-                    </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="about-text21">
+                        Current Role
+                    </span><br>
+                    <span class="about-text3">
+                        Cloud Developer , Erasmith Technologies
+                    </span>
                 </div>
+                <div class="about-divcenter flex1">
+                    <span class="about-text21">
+                        Education
+                    </span><br>
+                    <span class="about-text3">
+                        MBA (VIT Vellore) , B.Tech CSE
+                    </span>
                 </div>
-                <div class="container">
-                    <p class="about-me">
-                        As a passionate Computer Science and Engineering student with a flair for design and development, I have led and contributed to various innovative projects, showcasing my ability to blend technical skills with creativity to solve real-world problems.
-                    </p>
+                <div class="about-right flex1">
+                    <span class="about-text21">
+                        Languages
+                    </span><br>
+                    <span class="about-text3">
+                        Malayalam , English , Hindi
+                    </span>
                 </div>
-                <div class="container flex center between">
-                    <div class="work-left flex1 flex center j-center">
-                            <img src="home page (1).png" class="work-img"><br>
-                    </div>
-                    <div class="work-right flex1 flex center j-center">
-                            <img src="result2jpg.jpg" class="work-img"><br>
-                    </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="about-text21">
+                        Nationality
+                    </span><br>
+                    <span class="about-text3">
+                        INDIAN
+                    </span>
                 </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
+                <div class="about-divcenter flex1">
+                    <span class="about-text21">
+                        Date Of Birth
+                    </span><br>
+                    <span class="about-text3">
+                        22 October 2002
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="about-text21">
+                        Leadership
+                    </span><br>
+                    <span class="about-text3">
+                        Vice Chair , IEEE Student Chapter
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== SKILLS ===================== -->
+        <section class="sec" id="skill-section">
+            <div class="container flex center between">
+            <div class="flex center between">
+                <div class="left flex j-center">
+                    <span class="about-text">
+                    skills
+                    </span>
+                </div>
+                <div class="line2 flex1 flex j-center">
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <p class="about-me">
+                    From cloud infrastructure to the apps people use every day, here's the toolkit I work with.
+                </p>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="about-text2">
+                        Cloud Platforms
+                    </span><br>
+                    <span class="about-text3">
+                        AWS , GCP , Azure , DigitalOcean
+                    </span>
+                </div>
+                <div class="about-divcenter flex1">
+                    <span class="about-text2">
+                        Backend Development
+                    </span><br>
+                    <span class="about-text3">
+                        Python , FastAPI , Django , Java Spring
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="about-text2">
+                        App Development
+                    </span><br>
+                    <span class="about-text3">
+                        React , Next.js , Unity , ARCore
+                    </span>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="about-text2">
+                        DevOps &amp; Automation
+                    </span><br>
+                    <span class="about-text3">
+                        Ansible , Git , GitHub , Rundeck
+                    </span>
+                </div>
+                <div class="about-divcenter flex1">
+                    <span class="about-text2">
+                        Observability
+                    </span><br>
+                    <span class="about-text3">
+                        Datadog , Grafana , Prometheus
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="about-text2">
+                        AI &amp; Automation
+                    </span><br>
+                    <span class="about-text3">
+                        LLMs , AI Agents , Prompt Engineering
+                    </span>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="about-text2">
+                        Programming
+                    </span><br>
+                    <span class="about-text3">
+                        Python , Java , JavaScript , C
+                    </span>
+                </div>
+                <div class="about-divcenter flex1">
+                    <span class="about-text2">
+                        Databases
+                    </span><br>
+                    <span class="about-text3">
+                        SQL , PostgreSQL , MySQL
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="about-text2">
+                        Tools
+                    </span><br>
+                    <span class="about-text3">
+                        Power BI , VS Code , IntelliJ , MobaXterm
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== PROJECTS ===================== -->
+        <section class="sec" id="project-section">
+            <div class="container flex center between">
+            <div class="flex center between">
+                <div class="left flex j-center">
+                    <span class="about-text">
+                    projects
+                    </span>
+                </div>
+                <div class="line2 flex1 flex j-center">
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <p class="about-me">
+                    From enterprise cloud migrations to AI tutors and AR apps, these projects show how I combine cloud, backend and app development to solve real-world problems.
+                </p>
+            </div>
+
+            <!-- Row 1 -->
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                        <img src="./assets/images/datadog-migration.png" class="work-img"><br>
+                </div>
+                <div class="work-right flex1 flex center j-center">
+                        <img src="./assets/images/cloud-automation.png" class="work-img"><br>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="work-text">
+                        Dynatrace to Datadog Migration
+                    </span><br>
+                    <span class="about-text3">
+                        24 enterprise apps , Datadog , ServiceNow
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="work-text">
+                        Cloud Infrastructure Automation
+                    </span><br>
+                    <span class="about-text3">
+                        AWS , Azure , GCP , Python , Ansible
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- Row 2 -->
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                        <img src="home page (1).png" class="work-img"><br>
+                </div>
+                <div class="work-right flex1 flex center j-center">
+                        <img src="result2jpg.jpg" class="work-img"><br>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="work-text">
+                        TIC-TALK : AI English Tutoring System
+                    </span><br>
+                    <span class="about-text3">
+                        Django , Groq API , LLMs
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="work-text">
+                        Campus Guide : AR Navigation App
+                    </span><br>
+                    <span class="about-text3">
+                        Unity , Google ARCore , C#
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- Row 3 -->
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                        <img src="./assets/images/Screenshot 2024-12-17 234840.png" class="work-img"><br>
+                </div>
+                <div class="work-right flex1 flex center j-center">
+                        <img src="./assets/images/Screenshot 2024-12-17 235142.png" class="work-img"><br>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="work-text">
+                        Arookie.in
+                    </span><br>
+                    <span class="about-text3">
+                        Workflow management platform
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="work-text">
+                        WhatsApp Chatbox
+                    </span><br>
+                    <span class="about-text3">
+                        React , Next.js
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== EXPERIENCE ===================== -->
+        <section class="sec" id="exp-section">
+            <div class="container flex center between">
+            <div class="flex center between">
+                <div class="left flex j-center">
+                    <span class="about-text">
+                    experience
+                    </span>
+                </div>
+                <div class="line3 flex1 flex j-center">
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <p class="about-me">
+                    I've worked across cloud automation, backend services and web platforms: automating multi-cloud infrastructure, building REST APIs, setting up enterprise monitoring and bringing AI-driven workflows into day-to-day operations.
+                </p>
+            </div>
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                        <img src="erasmith.png" class="work-img"><br>
+                </div>
+                <div class="work-right flex1 flex center j-center">
+                        <img src="appraiz.png" class="work-img"><br>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="work-text">
+                        Erasmith Technologies
+                    </span><br>
+                    <span class="about-text3">
+                        Cloud Developer , Mar 2025 – Present
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="work-text">
+                        Appraizal
+                    </span><br>
+                    <span class="about-text3">
+                        Software Developer Intern , Dec 2024 – Feb 2025
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                        <img src="./assets/images/Screenshot 2024-12-17 234840.png" class="work-img"><br>
+                </div>
+                <div class="work-right flex1 flex center j-center">
+                        <img src="emvigo.png" class="work-img"><br>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <span class="work-text">
+                        Arookie
+                    </span><br>
+                    <span class="about-text3">
+                        Website Developer , Feb 2020 – Jan 2021
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <span class="work-text">
+                        Emvigo Technologies
+                    </span><br>
+                    <span class="about-text3">
+                        Frontend Intern , Feb 2020 – Jan 2021
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CERTIFICATES ===================== -->
+        <section class="sec" id="cert-section">
+            <div class="container flex center between">
+            <div class="flex center between">
+                <div class="left flex j-center">
+                    <span class="about-text">
+                    certificates
+                    </span>
+                </div>
+                <div class="line3 flex1 flex j-center">
+                </div>
+            </div>
+            </div>
+            <div class="container">
+                <p class="about-me">
+                    My journey of continuous learning is documented here, with certifications in cloud, AI and development from ISRO, AWS, IIT Bombay, Google and J.P. Morgan.
+                </p>
+            </div>
+
+            <!-- Row 1 -->
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                    <a href="AI-ML geodata analysis.pdf">
+                        <img src="ai/ml isro.png" class="work-img">
+                    </a><br>
+                </div>
+                <div class="work-right flex1 flex center j-center">
+                    <a href="aws generative ai.pdf">
+                        <img src="aws generative ai.png" class="work-img">
+                    </a><br>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <a href="AI-ML geodata analysis.pdf" class="work-text-link">
                         <span class="work-text">
-                            AI enabled English tutoring system
-                        </span><br>
-                        <span class="about-text3">
-                            Python-Django
+                            AI Certification
                         </span>
-                    </div>
-                    <div class="about-right flex1">
+                    </a><br>
+                    <span class="about-text3">
+                        By ISRO
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <a href="aws generative ai.pdf" class="work-text-link">
                         <span class="work-text">
-                            Campus Guide : 
-                            an AR navigation  application
-                        </span><br>
-                        <span class="about-text3">
-                            C#,unity,React
+                            Generative AI
                         </span>
-                    </div>
+                    </a><br>
+                    <span class="about-text3">
+                        By Amazon Web Services (AWS)
+                    </span>
                 </div>
-                <br>
-                <br>
+            </div>
+            <br>
+            <br>
+
+            <!-- Row 2 -->
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                    <a href="cloud computing iit bombay.pdf">
+                        <img src="cloud computing iit bombay.png" class="work-img">
+                    </a><br>
                 </div>
-                <div class="container flex center between">
-                    <div class="work-left flex1 flex center j-center">
-                            <img src="./assets/images/Screenshot 2024-12-17 234840.png" class="work-img"><br>
-                    </div>
-                    <div class="work-right flex1 flex center j-center">
-                            <img src="./assets/images/Screenshot 2024-12-17 235142.png" class="work-img"><br>
-                    </div>
+                <div class="work-right flex1 flex center j-center">
+                    <a href="full stack cloud innovation.pdf">
+                        <img src="full stack cloud innovation.png" class="work-img">
+                    </a><br>
                 </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <a href="cloud computing iit bombay.pdf" class="work-text-link">
                         <span class="work-text">
-                            Arookie.in
-                        </span><br>
-                        <span class="about-text3">
-                            HTML , CSS , JavaScript
+                            Cloud Computing
                         </span>
-                    </div>
-                    <div class="about-right flex1">
+                    </a><br>
+                    <span class="about-text3">
+                        By Techgyan , IIT Bombay
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <a href="full stack cloud innovation.pdf" class="work-text-link">
                         <span class="work-text">
-                            Whatsapp-chat
-                        </span><br>
-                        <span class="about-text3">
-                            React,nodejs
+                            Full Stack Development
                         </span>
-                    </div>
+                    </a><br>
+                    <span class="about-text3">
+                        By Cloud Innovation
+                    </span>
                 </div>
-                <br>
-                <br>
-                <div class="container flex center between">
-                    <div class="work-left flex1 flex center j-center">
-                            <img src="./assets/images/Screenshot 2024-12-18 000228.png" class="work-img"><br>
-                    </div>
-                    <div class="work-right flex1 flex center j-center">
-                            <img src="./assets/images/Screenshot 2024-12-17 235708.png" class="work-img"><br>
-                    </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- Row 3 -->
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                    <a href="excel-jp morgan.pdf">
+                        <img src="jp morgan excel.png" class="work-img">
+                    </a><br>
                 </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
+                <div class="work-right flex1 flex center j-center">
+                    <a href="google devs.jpg">
+                        <img src="google devs.jpg" class="work-img">
+                    </a><br>
+                </div>
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <a href="excel-jp morgan.pdf" class="work-text-link">
                         <span class="work-text">
-                            Toriofiber.com
-                        </span><br>
-                        <span class="about-text3">
-                            
+                            Excel Skills for Business
                         </span>
-                    </div>
-                    <div class="about-right flex1">
+                    </a><br>
+                    <span class="about-text3">
+                        By J.P. Morgan
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <a href="google devs.jpg" class="work-text-link">
                         <span class="work-text">
-                            To-do App
-                        </span><br>
-                        <span class="about-text3">
-                            React,node.js
+                            Cloud Security
                         </span>
-                    </div>
+                    </a><br>
+                    <span class="about-text3">
+                        By Google
+                    </span>
                 </div>
-            </section>
-            <section class="sec" id="exp-section">
-                <div class="container flex center between">
-                <div class="flex center between">
-                    <div class="left flex j-center">
-                        <span class="about-text">
-                        experience
-                        </span>
-                    </div>
-                    <div class="line3 flex1 flex j-center">
-                    </div>
+            </div>
+            <br>
+            <br>
+
+            <!-- Row 4 -->
+            <div class="container flex center between">
+                <div class="work-left flex1 flex center j-center">
+                    <a href="G Bhadra Nair  certificate of internship.jpg">
+                        <img src="G Bhadra Nair  certificate of internship.jpg" class="work-img">
+                    </a><br>
                 </div>
+                <div class="work-right flex1 flex center j-center">
+                    <a href="BEACHHACK ACHIEVENMNT (1).pdf">
+                        <img src="expo.png" class="work-img">
+                    </a><br>
                 </div>
-                <div class="container">
-                    <p class="about-me">
-                        I'm a designer and developer who thrives in both the digital and physical worlds. My experience encompasses designing user interfaces for web projects, as well as crafting layouts for printed materials. Additionally, I possess coding skills to add interactivity to web projects.
-                    </p>
-                </div>
-                <div class="container flex center between">
-                    <div class="work-left flex1 flex center j-center">
-                            <img src="erasmith.png" class="work-img"><br>
-                    </div>
-                    <div class="work-right flex1 flex center j-center">
-                            <img src="appraiz.png" class="work-img"><br>
-                    </div>
-                </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
+            </div>
+            <div class="container flex center between">
+                <div class="about-left flex1">
+                    <a href="G Bhadra Nair  certificate of internship.jpg" class="work-text-link">
                         <span class="work-text">
-                            Erasmith Technologies
-                        </span><br>
-                        <span class="about-text3">
-                            Cloud Engineer
+                            Internship certificate on AI/ML
                         </span>
-                    </div>
-                    <div class="about-right flex1">
+                    </a><br>
+                    <span class="about-text3">
+                        By Pinwheel robotics &amp; Intern360
+                    </span>
+                </div>
+                <div class="about-right flex1">
+                    <a href="BEACHHACK ACHIEVENMNT (1).pdf" class="work-text-link">
                         <span class="work-text">
-                            Appraiz
-                        </span><br>
-                        <span class="about-text3">
-                            Java Developer
+                            BEACH EXPO
                         </span>
-                    </div>
+                    </a><br>
+                    <span class="about-text3">
+                        By Christ
+                    </span>
                 </div>
-                <br>
-                <br>
-                <div class="container flex center between">
-                    <div class="work-left flex1 flex center j-center">
-                            <img src="emvigo.png" class="work-img"><br>
-                    </div>
-                    <div class="work-right flex1 flex center j-center">
-                            <img src="freelance.jpg" class="work-img"><br>
-                    </div>
+            </div>
+        </section>
+
+        <!-- ===================== CONTACT ===================== -->
+        <section class="sec-bottom" id="cont-section">
+            <div class="container flex center between">
+            <div class="flex center between">
+                <div class="left flex j-center">
+                    <span class="about-text">
+                    contact me
+                    </span>
                 </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
-                        <span class="work-text">
-                            Emvigo technologies
-                        </span><br>
-                        <span class="about-text3">
-                            Software Intern
-                        </span>
-                    </div>
-                    <div class="about-right flex1">
-                        <span class="work-text">
-                            Freelance
-                        </span><br>
-                        <span class="about-text3">
-                            Developer/Content writer/Designer
-                        </span>
-                    </div>
+                <div class="line4 flex1 flex j-center">
                 </div>
-            </section>
-            <section class="sec" id="cert-section">
-                <div class="container flex center between">
-                <div class="flex center between">
-                    <div class="left flex j-center">
-                        <span class="about-text">
-                        certificates
-                        </span>
-                    </div>
-                    <div class="line3 flex1 flex j-center">
-                    </div>
+            </div>
+            </div>
+            <div class="container flex center between" id="bt">
+                <div class="about-left flex1" id="cont-call">
+                    <a href="tel:+919446429640">
+                    <img src="./assets/social/call.png" class="contact-img">
+                    </a>
                 </div>
+                <div class="about-divcenter flex1" id="cont-gmail">
+                    <a href="mailto:er.bhadranair@gmail.com">
+                    <img src="./assets/social/gmail.png" class="contact-img">
+                    </a>
                 </div>
-                <div class="container">
-                    <p class="about-me">
-                        My journey of continuous improvement is documented here, with certifications showcasing my commitment to mastering the latest design and development tools.
-                    </p>
+                <div class="about-divcenter flex1" id="cont-insta">
+                    <a href="https://www.instagram.com/g_bhadra_nair_/">
+                    <img src="./assets/social/instagram.png" class="contact-img">
+                    </a>
                 </div>
-                <div class="container flex center between">
-                    <div class="work-left flex1 flex center j-center">
-                        <a href="AI-ML geodata analysis.pdf">
-                            <img src="ai/ml isro.png" class="work-img">
-                        </a><br>
-                    </div>
-                    <div class="work-right flex1 flex center j-center">
-                        <a href="BEACHHACK ACHIEVENMNT (1).pdf">
-                            <img src="expo.png" class="work-img">
-                        </a><br>
-                    </div>
+                <div class="about-divcenter flex1" id="cont-git">
+                    <a href="https://github.com/Bhadra2811">
+                    <img src="./assets/social/github.png" class="contact-img">
+                    </a>
                 </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
-                        <a href="your-link-for-html-origin" class="work-text-link">
-                            <span class="work-text">
-                                AI/ML certificate
-                            </span>
-                        </a><br>
-                        <span class="about-text3">
-                            By ISRO
-                        </span>
-                    </div>
-                    <div class="about-right flex1">
-                        <a href="your-link-for-css-origin" class="work-text-link">
-                            <span class="work-text">
-                                BEACH EXPO 
-                            </span>
-                        </a><br>
-                        <span class="about-text3">
-                            By Christ
-                        </span>
-                    </div>
+                <div class="about-divcenter flex1" id="cont-linked">
+                    <a href="https://www.linkedin.com/in/g-bhadra-nair">
+                    <img src="./assets/social/linkedin.png" class="contact-img">
+                    </a>
                 </div>
-                <br>
-                <br>
-                <div class="container flex center between">
-                    <div class="work-left flex1 flex center j-center">
-                        <a href="G Bhadra Nair  certificate of internship.jpg">
-                            <img src="G Bhadra Nair  certificate of internship.jpg" class="work-img">
-                        </a><br>
-                    </div>
-                    <div class="work-right flex1 flex center j-center">
-                        <a href="excel-jp morgan.pdf">
-                            <img src="jp morgan excel.png" class="work-img">
-                        </a><br>
-                    </div>
+                <div class="about-right flex1" id="cont-whatsapp">
+                    <a href="https://api.whatsapp.com/send/?phone=%2B919446429640&text&type=phone_number&app_absent=0">
+                    <img src="./assets/social/whatsapp.png" class="contact-img">
+                    </a>
                 </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
-                        <a href="G Bhadra Nair  certificate of internship.jpg" class="work-text-link">
-                            <span class="work-text">
-                                Internship certificate on AI/ML
-                            </span>
-                        </a><br>
-                        <span class="about-text3">
-                            By Pinwheel robotics & Intern360
-                        </span>
-                    </div>
-                    <div class="about-right flex1">
-                        <a href="excel-jp morgan.pdf" class="work-text-link">
-                            <span class="work-text">
-                                Excel
-                            </span>
-                        </a><br>
-                        <span class="about-text3">
-                            By Forage
-                        </span>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="container flex center between">
-                    <div class="work-left flex1 flex center j-center">
-                        <a href="google devs.jpg">
-                            <img src="google devs.jpg" class="work-img">
-                        </a><br>
-                    </div>
-                    <div class="work-right flex1 flex center j-center">
-                        <a href="G Bhadra nair.pdf">
-                            <img src="internship on webdesigning.png" class="work-img">
-                        </a><br>
-                    </div>
-                </div>
-                <div class="container flex center between">
-                    <div class="about-left flex1">
-                        <a href="your-link-for-javascript-origin" class="work-text-link">
-                        <span class="work-text">
-                            Cloud security
-                        </span>
-                        </a><br>
-                        <span class="about-text3">
-                            By Google
-                        </span>
-                    </div>
-                    <div class="about-right flex1">
-                        <a href="your-link-for-javascript-origin" class="work-text-link">
-                        <span class="work-text">
-                            Web Designing
-                        </span>
-                        </a><br>
-                        <span class="about-text3">
-                            By Code Design technologies
-                        </span>
-                    </div>
-                </div>
-            </section>
-            <section class="sec-bottom" id="cont-section">
-                <div class="container flex center between">
-                <div class="flex center between">
-                    <div class="left flex j-center">
-                        <span class="about-text">
-                        contact me
-                        </span>
-                    </div>
-                    <div class="line4 flex1 flex j-center">
-                    </div>
-                </div>
-                </div>
-                <!-- <div class="container">
-                    <p class="about-me">
-                        Can I help turn your vision into reality? <br>Reach out and let's make something awesome together.
-                    </p>
-                </div> -->
-                <div class="container flex center between" id="bt">
-                    <div class="about-left flex1" id="cont-call">
-                        <a href="tel:+919446429640">
-                        <img src="./assets/social/call.png" class="contact-img">
-                        </a>
-                    </div>
-                    <div class="about-divcenter flex1" id="cont-gmail">
-                        <a href="mailto:gsb22102@gmail.com">
-                        <img src="./assets/social/gmail.png" class="contact-img">
-                        </a>
-                    </div>
-                    <div class="about-divcenter flex1" id="cont-insta">
-                        <a href="https://www.instagram.com/g_bhadra_nair_/">
-                        <img src="./assets/social/instagram.png" class="contact-img">
-                        </a>
-                    </div>
-                    <div class="about-divcenter flex1" id="cont-git">
-                        <a href="https://github.com/Bhadra2811">
-                        <img src="./assets/social/github.png" class="contact-img">
-                        </a>
-                    </div>
-                    <div class="about-divcenter flex1" id="cont-linked">
-                        <a href="https://www.linkedin.com/in/g-bhadra-nair-669a59249/">
-                        <img src="./assets/social/linkedin.png" class="contact-img">
-                        </a>
-                    </div>
-                    <div class="about-right flex1" id="cont-whatsapp">
-                        <a href="https://api.whatsapp.com/send/?phone=%2B919446429640&text&type=phone_number&app_absent=0">
-                        <img src="./assets/social/whatsapp.png" class="contact-img">
-                        </a>
-                    </div>
-            </section>
+            </div>
+        </section>
     </div>
 <script>
     let ham = document.querySelector('.ham');
@@ -518,7 +692,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    const textArray = ["Python Developer", "3D\nDesigner", "Cloud Developer" , "Linux user"];
+    const textArray = ["Cloud Developer", "Backend Developer", "App Developer", "AI & Automation"];
     const typingSpeed = 100;
     const erasingSpeed = 50;
     const newTextDelay = 2000; // Delay between current and next text
@@ -552,31 +726,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Select all links with hashes
-    const links = document.querySelectorAll('a[href*="#"]');
+    // Smooth scroll for in-page links (also closes the mobile menu)
+    const links = document.querySelectorAll('a[href^="#"]');
 
     for (const link of links) {
         link.addEventListener('click', function(event) {
             event.preventDefault();
 
             const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
+            const targetElement = targetId ? document.getElementById(targetId) : null;
 
             if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start'
-                });
+                targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            } else {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             }
+            mobileNav.classList.remove('open');
         });
     }
 });
 
-
 </script>
 <footer>
     <div class="copyright">
-        &copy; This website was completely developed by <span>G Bhadra nair </span>.
+        &copy; This website was completely developed by <span>G Bhadra Nair</span>.
     </div>
 </footer>
 </body>
